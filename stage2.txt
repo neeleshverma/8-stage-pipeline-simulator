@@ -1,0 +1,7 @@
+.data
+out_string: .word 1 222 323 43 55
+out_string1: .word 1 222 323 43 55
+.text
+main:
+lw $r5, $r6, 5
+add $r7, $r5, $r0

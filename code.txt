@@ -1,0 +1,9 @@
+.data
+
+.text
+
+main:
+beq $r6, $r5, 8
+
+main1:
+lw $r10, $r6, 1 
